@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA FEST - Festival Cultural</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#inici" class="logo">
+        <span class="logo-mark">N</span>
+        <div class="logo-text">
+          <span class="logo-title">NOVA FEST</span>
+          <span class="logo-subtitle">Festival Cultural 2026</span>
+        </div>
+      </a>
+
+      <!-- Aquest checkbox permet obrir i tancar el menú hamburguesa en mòbil sense JS -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger" aria-label="Obrir menú">☰</label>
+
+      <nav class="nav">
+        <a href="#inici">Inici</a>
+        <a href="#dates">Dates</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacte">Contacte</a>
+        <a href="#registre">Registre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO / INICI -->
+    <section id="inici" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-card">
+          <p class="tag">Esdeveniment cultural fictici</p>
+          <h1>NOVA FEST 2026</h1>
+          <p>
+            Música, art digital, il·lustració, tallers creatius i experiències immersives
+            en un cap de setmana únic a Lleida.
+          </p>
+          <a href="#registre" class="btn primary-btn">Registrar-me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATES -->
+    <section id="dates" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Dates</p>
+          <h2>Informació de l’esdeveniment</h2>
+          <p>
+            NOVA FEST és un festival cultural dedicat a la creativitat, la música en directe,
+            les arts visuals i la tecnologia aplicada a l’expressió artística.
+          </p>
+        </div>
+
+        <div class="dates-grid">
+          <article class="info-card">
+            <h3>Sobre el festival</h3>
+            <p>
+              Durant tres dies, artistes emergents, creadors digitals i públic general
+              comparteixen concerts, exposicions, conferències i activitats interactives.
+            </p>
+          </article>
+
+          <article class="info-card calendar-card">
+            <h3>Calendari</h3>
+            <div class="calendar">
+              <div class="calendar-day">
+                <span class="day-name">Divendres</span>
+                <span class="day-number">10</span>
+                <span class="day-month">Abril</span>
+              </div>
+              <div class="calendar-day">
+                <span class="day-name">Dissabte</span>
+                <span class="day-number">11</span>
+                <span class="day-month">Abril</span>
+              </div>
+              <div class="calendar-day">
+                <span class="day-name">Diumenge</span>
+                <span class="day-number">12</span>
+                <span class="day-month">Abril</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ITINERARI -->
+    <section class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Programa</p>
+          <h2>Itinerari d’activitats</h2>
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Hora</th>
+                <th>Divendres</th>
+                <th>Dissabte</th>
+                <th>Diumenge</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10:00</td>
+                <td>Obertura i acreditacions</td>
+                <td>Taller d’il·lustració</td>
+                <td>Mercat creatiu</td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>Conferència art digital</td>
+                <td>Xerrada sobre IA creativa</td>
+                <td>Exposició interactiva</td>
+              </tr>
+              <tr>
+                <td>16:00</td>
+                <td>Zona gaming & experiències</td>
+                <td>Concert acústic</td>
+                <td>Taller audiovisual</td>
+              </tr>
+              <tr>
+                <td>20:00</td>
+                <td>Concert inaugural</td>
+                <td>Show principal</td>
+                <td>Acte de cloenda</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- PATROCINADORS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Col·laboradors</p>
+          <h2>Patrocinadors</h2>
+          <p>Les marques que han fet possible aquesta experiència.</p>
+        </div>
+
+        <div class="sponsors-grid">
+          <article class="sponsor-card">
+            <div class="sponsor-inner">
+              <div class="sponsor-front">Spotify</div>
+              <div class="sponsor-back"><h3>Spotify</h3><a href="https://spotify.com" target="_blank">Visitar web</a></div>
+            </div>
+          </article>
+
+          <article class="sponsor-card">
+            <div class="sponsor-inner">
+              <div class="sponsor-front">Coca-Cola</div>
+              <div class="sponsor-back"><h3>Coca-Cola</h3><a href="https://www.coca-cola.com" target="_blank">Visitar web</a></div>
+            </div>
+          </article>
+
+          <article class="sponsor-card">
+            <div class="sponsor-inner">
+              <div class="sponsor-front">Estrella Damm</div>
+              <div class="sponsor-back"><h3>Estrella Damm</h3><a href="https://www.estrelladamm.com" target="_blank">Visitar web</a></div>
+            </div>
+          </article>
+
+          <article class="sponsor-card">
+            <div class="sponsor-inner">
+              <div class="sponsor-front">Nvidia</div>
+              <div class="sponsor-back"><h3>Nvidia</h3><a href="https://www.nvidia.com" target="_blank">Visitar web</a></div>
+            </div>
+          </article>
+
+          <article class="sponsor-card">
+            <div class="sponsor-inner">
+              <div class="sponsor-front">Red Bull</div>
+              <div class="sponsor-back"><h3>Red Bull</h3><a href="https://www.redbull.com" target="_blank">Visitar web</a></div>
+            </div>
+          </article>
+
+          <article class="sponsor-card">
+            <div class="sponsor-inner">
+              <div class="sponsor-front">Secretlab</div>
+              <div class="sponsor-back"><h3>Secretlab</h3><a href="https://secretlab.eu" target="_blank">Visitar web</a></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-button">
+          <a href="#contacte" class="btn secondary-btn">Anar al contacte</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">FAQ</p>
+          <h2>Preguntes freqüents</h2>
+        </div>
+
+        <div class="faq-grid">
+          <article class="faq-card">
+            <div class="faq-inner">
+              <div class="faq-front"><h3>On se celebra?</h3><p>Passa el cursor per veure més informació.</p></div>
+              <div class="faq-back"><h3>On se celebra?</h3><p>El festival es realitza al recinte firal de Lleida, amb zones interiors i exteriors preparades per a concerts, exposicions i activitats interactives.</p></div>
+            </div>
+          </article>
+
+          <article class="faq-card">
+            <div class="faq-inner">
+              <div class="faq-front"><h3>És gratuït?</h3><p>Passa el cursor per veure més informació.</p></div>
+              <div class="faq-back"><h3>És gratuït?</h3><p>Hi ha activitats gratuïtes i altres activitats amb registre previ. En el formulari es pot indicar l’assistència i consultar les opcions disponibles.</p></div>
+            </div>
+          </article>
+
+          <article class="faq-card">
+            <div class="faq-inner">
+              <div class="faq-front"><h3>Puc assistir només un dia?</h3><p>Passa el cursor per veure més informació.</p></div>
+              <div class="faq-back"><h3>Puc assistir només un dia?</h3><p>Sí. El registre permet seleccionar una assistència flexible segons el dia que interessi més a cada persona.</p></div>
+            </div>
+          </article>
+
+          <article class="faq-card">
+            <div class="faq-inner">
+              <div class="faq-front"><h3>Hi haurà restauració?</h3><p>Passa el cursor per veure més informació.</p></div>
+              <div class="faq-back"><h3>Hi haurà restauració?</h3><p>Sí, el festival comptarà amb una zona de food trucks, begudes i espais de descans per al públic durant tot l’esdeveniment.</p></div>
+            </div>
+          </article>
+
+          <article class="faq-card">
+            <div class="faq-inner">
+              <div class="faq-front"><h3>És accessible?</h3><p>Passa el cursor per veure més informació.</p></div>
+              <div class="faq-back"><h3>És accessible?</h3><p>El recinte està adaptat per garantir una experiència inclusiva, amb accessos habilitats i zones pensades per a diferents necessitats.</p></div>
+            </div>
+          </article>
+
+          <article class="faq-card">
+            <div class="faq-inner">
+              <div class="faq-front"><h3>Es pot aparcar?</h3><p>Passa el cursor per veure més informació.</p></div>
+              <div class="faq-back"><h3>Es pot aparcar?</h3><p>Sí, hi ha aparcament proper i connexió amb transport públic per facilitar l’arribada al festival.</p></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTE -->
+    <section id="contacte" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Contacte</p>
+          <h2>Parla amb nosaltres</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>NOVA FEST Office</h3>
+            <p>
+              Tens dubtes sobre l’esdeveniment, el programa o el registre?
+              Contacta amb nosaltres i et respondrem al més aviat possible.
+            </p>
+
+            <div class="address-box">
+              <strong>Adreça</strong>
+              <p>Fira de Lleida, Avinguda de Tortosa, 2, 25005 Lleida</p>
+            </div>
+
+            <div class="map-box">
+              <iframe
+                src="https://www.google.com/maps?q=Lleida&output=embed"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Mapa de Lleida">
+              </iframe>
+            </div>
+
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+              <a href="https://facebook.com" target="_blank">Facebook</a>
+              <a href="https://x.com" target="_blank">X</a>
+              <a href="https://youtube.com" target="_blank">YouTube</a>
+            </div>
+          </div>
+
+          <form class="form-card" id="contact-form">
+            <h3>Formulari de contacte</h3>
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Correu electrònic</label>
+            <input type="email" id="email" name="email" required>
+            <p class="error-message" id="contact-email-error"></p>
+
+            <label for="assumpte">Assumpte</label>
+            <input type="text" id="assumpte" name="assumpte" required>
+
+            <label for="missatge">Missatge</label>
+            <textarea id="missatge" name="missatge" rows="6" required></textarea>
+
+            <button type="submit" class="btn primary-btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGISTRE -->
+    <section id="registre" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Registre</p>
+          <h2>Inscripció a l’esdeveniment</h2>
+          <p>A què estàs esperant? Inscriu-te!</p>
+        </div>
+
+        <form class="register-form" id="register-form">
+          <label for="reg-nom">Nom</label>
+          <input type="text" id="reg-nom" name="reg-nom" required>
+
+          <label for="reg-email">Correu electrònic</label>
+          <input type="email" id="reg-email" name="reg-email" required>
+          <p class="error-message" id="register-email-error"></p>
+
+          <label for="reg-pass">Contrasenya</label>
+          <input type="password" id="reg-pass" name="reg-pass" required>
+
+          <label for="reg-pass2">Confirmació de contrasenya</label>
+          <input type="password" id="reg-pass2" name="reg-pass2" required>
+          <p class="error-message" id="password-error"></p>
+
+          <button type="submit" class="btn primary-btn">Completar registre</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal de benvinguda que es mostra només el primer cop amb localStorage -->
+  <div id="welcome-modal" class="modal">
+    <div class="modal-content">
+      <button id="close-modal" class="close-modal" aria-label="Tancar finestra">&times;</button>
+      <h2>Benvingut a NOVA FEST 2026</h2>
+      <p>Gràcies per visitar la nostra web. Esperem que gaudeixis de totes les activitats del festival.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-row social-footer">
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://x.com" target="_blank">X</a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+      </div>
+
+      <div class="footer-row legal-footer">
+        <a href="#">Termes i condicions</a>
+        <a href="#">Política de cookies</a>
+        <a href="#">Política de privadesa</a>
+      </div>
+
+      <div class="footer-row signature-footer">
+        Web creada per Caruceru Group, 2026. Tots els drets reservats.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

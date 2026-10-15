@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria - NOVA FEST</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html#inici" class="logo">
+        <span class="logo-mark">N</span>
+        <div class="logo-text">
+          <span class="logo-title">NOVA FEST</span>
+          <span class="logo-subtitle">Festival Cultural 2026</span>
+        </div>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger" aria-label="Obrir menú">☰</label>
+
+      <nav class="nav">
+        <a href="index.html#inici">Inici</a>
+        <a href="index.html#dates">Dates</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contacte">Contacte</a>
+        <a href="index.html#registre">Registre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section gallery-hero">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Galeria</p>
+          <h1>Imatges de NOVA FEST</h1>
+          <p>Un recull visual d’edicions anteriors i de l’ambient cultural del festival.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider CSS amb 5 imatges d'esdeveniments anteriors -->
+    <section class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Edicions anteriors</p>
+          <h2>Slider d’imatges</h2>
+        </div>
+
+        <div class="slider">
+          <div class="slides">
+            <img src="img/galeria-1.svg" alt="Concert anterior de NOVA FEST">
+            <img src="img/galeria-2.svg" alt="Mostra d'art digital">
+            <img src="img/galeria-3.svg" alt="Escenari nocturn del festival">
+            <img src="img/galeria-4.svg" alt="Tallers creatius del festival">
+            <img src="img/galeria-5.svg" alt="Experiència immersiva anterior">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Graella 2x2. En fer hover creix amb CSS i en fer clic s'amplia amb JS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-tag">Esdeveniment</p>
+          <h2>Galeria 2x2</h2>
+          <p>Fes clic sobre qualsevol imatge per veure-la ampliada.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="img/galeria-6.svg" alt="Galeria cultural" class="gallery-img">
+          <img src="img/galeria-7.svg" alt="Música en directe" class="gallery-img">
+          <img src="img/galeria-8.svg" alt="Mercat creatiu" class="gallery-img">
+          <img src="img/galeria-9.svg" alt="Experiència visual" class="gallery-img">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <button id="close-lightbox" class="close-lightbox" aria-label="Tancar imatge">&times;</button>
+    <img id="lightbox-img" src="" alt="Imatge ampliada de la galeria">
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-row social-footer">
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://x.com" target="_blank">X</a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+      </div>
+      <div class="footer-row legal-footer">
+        <a href="#">Termes i condicions</a>
+        <a href="#">Política de cookies</a>
+        <a href="#">Política de privadesa</a>
+      </div>
+      <div class="footer-row signature-footer">
+        Web creada per Caruceru Group, 2026. Tots els drets reservats.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
